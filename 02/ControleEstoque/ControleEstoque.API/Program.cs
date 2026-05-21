@@ -58,6 +58,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication(); // Adicionar por conta do JWT
+
 app.UseAuthorization();
 
 app.MapControllers();
