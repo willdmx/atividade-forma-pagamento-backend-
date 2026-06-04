@@ -2,6 +2,7 @@ using ControleEstoque.API.DTOs;
 using ControleEstoque.API.Services;
 using Microsoft.AspNetCore.Mvc;
 
+// Só gerentes podem tomar ações em fornecedores.
 namespace ControleEstoque.API.Controllers
 {
     [ApiController]

@@ -2,6 +2,9 @@ using ControleEstoque.API.DTOs;
 using ControleEstoque.API.Services;
 using Microsoft.AspNetCore.Mvc;
 
+// qualquer usuário autenticado pode ver os produtos
+// apenas gerentes podem criar, atualizar e deletar produtos
+
 namespace ControleEstoque.API.Controllers
 {
     [ApiController]

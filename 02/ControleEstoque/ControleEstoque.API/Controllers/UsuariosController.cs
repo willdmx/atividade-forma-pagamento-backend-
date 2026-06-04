@@ -1,7 +1,9 @@
 using ControleEstoque.API.DTOs;
 using ControleEstoque.API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
+// login é aberto para todos, o restante precisa estar autenticado
 namespace ControleEstoque.API.Controllers
 {
     [ApiController]
