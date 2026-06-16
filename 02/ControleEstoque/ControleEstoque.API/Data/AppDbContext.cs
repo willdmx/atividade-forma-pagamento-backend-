@@ -15,6 +15,7 @@ namespace ControleEstoque.API.Data
         public DbSet<Caixa> Caixas { get; set; }
         public DbSet<Gerente> Gerentes { get; set; }
         public DbSet<Fornecedor> Fornecedores { get; set; }
+        public DbSet<FormaPagamento> FormasPagamento { get; set; }
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<ItemPedido> ItensPedido { get; set; }
